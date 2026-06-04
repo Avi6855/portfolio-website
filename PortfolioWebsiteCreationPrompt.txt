@@ -1,0 +1,484 @@
+BUILD A COMPLETE PRODUCTION-READY PREMIUM 3D ANIMATED SINGLE-PAGE PORTFOLIO WEBSITE FOR AN ANDROID ENGINEER AND SOFTWARE ENGINEER.
+
+IMPORTANT OBJECTIVE:
+
+This portfolio is intended for recruiters and hiring managers at Google, Amazon, Microsoft, Meta, Uber, Stripe, Atlassian, Adobe, Salesforce, and other top-tier technology companies.
+
+The website must immediately communicate:
+
+* Strong Android Development Skills
+* Software Engineering Expertise
+* Full Stack Development Capability
+* Enterprise Application Development Experience
+* System Design Knowledge
+* Problem Solving Ability
+* Product Development Experience
+* Competitive Programming Achievements
+
+==================================================
+TECHNICAL REQUIREMENTS
+======================
+
+Generate a complete production-ready codebase.
+
+Technology Stack:
+
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Three.js or React Three Fiber
+
+Requirements:
+
+* Single Page Application
+* Static Website
+* Vercel Ready
+* Mobile Responsive
+* Desktop Optimized
+* SEO Optimized
+* ATS Friendly
+* Lighthouse Score 95+
+* Accessibility Optimized
+* Fast Loading
+* Lazy Loading
+* Optimized Assets
+* Smooth Scrolling
+* Glassmorphism UI
+* Premium Animations
+* Modern 2026 Design
+
+Design Inspiration:
+
+* Google
+* Stripe
+* Vercel
+* Linear
+* Anthropic
+* Apple
+
+Theme:
+
+* Dark Mode Default
+* Elegant Gradients
+* Glassmorphism Effects
+* Interactive Elements
+* Premium Motion Design
+
+==================================================
+PERSONAL INFORMATION
+====================
+
+Name:
+Avinash Patil
+
+Role:
+Android Engineer | Software Engineer
+
+Location:
+Kolhapur, Maharashtra, India
+
+Email:
+[avinashpatil6855@gmail.com](mailto:avinashpatil6855@gmail.com)
+
+Phone:
++91 7248976855
+
+LinkedIn:
+https://www.linkedin.com/in/avinash-patil-278011228/
+
+GitHub:
+https://github.com/Avi6855
+
+==================================================
+WEBSITE STRUCTURE
+=================
+
+1. Hero Section
+2. About Me
+3. Professional Experience
+4. Projects
+5. CodeChef Achievements
+6. Education
+7. Achievements
+8. Why Recruiters Should Hire Me
+9. Contact Section
+10. Footer
+
+==================================================
+HERO SECTION
+============
+
+Create a premium landing page featuring:
+
+* 3D Interactive Sphere
+* Floating Technology Icons
+* Animated Particles
+* Animated Cursor
+* Typing Animation
+* Interactive Mouse Effects
+* Scroll Animations
+* Floating Code Elements
+
+Headline:
+
+"Building Scalable Software Products and Intelligent Digital Experiences"
+
+Subheadline:
+
+Android Engineer with experience building mobile applications, enterprise platforms, business automation systems, and full-stack software solutions.
+
+Buttons:
+
+* View Projects
+* Contact Me
+
+Social Icons:
+
+* GitHub
+* LinkedIn
+* Email
+
+==================================================
+ABOUT SECTION
+=============
+
+Professional Summary:
+
+Android Engineer with 2.6+ years of experience building scalable mobile applications, enterprise software systems, automation platforms, fintech applications, and full-stack solutions.
+
+Core Expertise:
+
+* Android Development
+* Kotlin
+* Java
+* Jetpack Compose
+* MVVM
+* Clean Architecture
+* Spring Boot
+* REST APIs
+* Firebase
+* PostgreSQL
+* System Design
+* Software Engineering
+
+==================================================
+PROFESSIONAL EXPERIENCE
+=======================
+
+Company:
+DISHA Computer Education
+
+Role:
+Android Engineer
+
+Duration:
+January 2024 – Present
+
+Create premium animated experience cards.
+
+Highlight:
+
+* Enterprise Software Development
+* Android Development
+* Business Automation
+* System Integrations
+* AI-Powered Solutions
+* Product Development
+* Performance Optimization
+
+==================================================
+PROJECT ANALYSIS INSTRUCTIONS
+=============================
+
+FOR EVERY PROJECT BELOW:
+
+Analyze the GitHub repository directly.
+
+Do not generate generic content.
+
+Generate information from actual implementation.
+
+Analyze:
+
+* Repository Structure
+* Source Code
+* Package Organization
+* Architecture
+* Frameworks
+* Libraries
+* APIs
+* Integrations
+* Databases
+* Screens
+* Features
+* Documentation
+* Assets
+* Engineering Decisions
+
+Automatically generate:
+
+* Technical Overview
+* Recruiter-Friendly Summary
+* Feature Breakdown
+* Architecture Diagram
+* System Design Diagram
+* Technology Stack Visualization
+* Screenshots Gallery
+* GitHub Statistics
+* Engineering Challenges
+* Solutions Implemented
+* Scalability Considerations
+* Performance Optimizations
+* Business Impact
+* Technical Highlights
+* Learning Outcomes
+
+==================================================
+PROJECTS
+========
+
+PROJECT 1
+
+Name:
+AI Powered Supply Chain & Sales Automation
+
+Repository:
+https://github.com/Avi6855/AI_Powered_Smart_Supply_Chain_-_Sales_Automation_Platform
+
+Category:
+Enterprise Business Automation Platform
+
+Instruction:
+
+Analyze repository and generate all project information based on actual implementation.
+
+==================================================
+
+PROJECT 2
+
+Name:
+Auto Messaging System
+
+Repository:
+https://github.com/Avi6855/AutoMessaging
+
+Category:
+Customer Engagement & Business Automation Platform
+
+Additional Context:
+
+The application automatically sends predefined SMS messages after a phone call ends.
+
+Primary Goal:
+
+* Customer Feedback Collection
+* Customer Engagement
+* Business Automation
+* Follow-Up Communication
+
+Instruction:
+
+Analyze repository and generate all project information based on actual implementation.
+
+==================================================
+
+PROJECT 3
+
+Name:
+Monzo Bank
+
+Repository:
+https://github.com/Avi6855/MonzoBank
+
+Category:
+Fintech Mobile Application
+
+Instruction:
+
+Analyze repository and generate all project information based on actual implementation.
+
+==================================================
+
+PROJECT 4
+
+Name:
+StreamFlow – Privacy-Focused Video Streaming Platform
+
+Repository:
+https://github.com/Avi6855/YouTube_Plus
+
+Category:
+Video Streaming Platform
+
+Instruction:
+
+Analyze repository and generate all project information based on actual implementation.
+
+==================================================
+PROJECT PRESENTATION REQUIREMENTS
+=================================
+
+Each Project Card Must Include:
+
+* Thumbnail
+* Screenshots
+* Tech Stack
+* Problem Solved
+* Features
+* Architecture
+* GitHub Link
+* Demo Video
+* Metrics
+* Business Impact
+* Expandable Details
+* Engineering Challenges
+* Solutions
+* Technical Highlights
+
+Video Support:
+
+* Fullscreen Modal
+* MP4 Support
+* Custom Controls
+* Up To 15 Minutes Duration
+* Smooth Animations
+
+==================================================
+CODECHEF SECTION
+================
+
+Create a premium competitive programming dashboard.
+
+Include:
+
+* Profile Card
+* Rating
+* Highest Rating
+* Stars
+* Global Rank
+* Country Rank
+* Contest History
+* Achievement Timeline
+* Rating Growth Graph
+* Activity Heatmap
+* Statistics Dashboard
+* Badges and Achievements
+
+==================================================
+EDUCATION
+=========
+
+Bachelor of Computer Science (BCS)
+
+Institution:
+The New College, Kolhapur
+
+CGPA:
+8.1 / 10
+
+Duration:
+2021 – 2024
+
+==================================================
+ACHIEVEMENTS SECTION
+====================
+
+Create premium achievement cards.
+
+Include:
+
+* Android Development Achievements
+* Software Engineering Achievements
+* Enterprise Systems Built
+* Major Projects Delivered
+* Full Stack Development Achievements
+* Competitive Programming Achievements
+
+==================================================
+WHY RECRUITERS SHOULD HIRE ME
+=============================
+
+Create premium animated cards.
+
+Show:
+
+* Android Engineering
+* Software Engineering
+* Full Stack Development
+* System Design
+* Enterprise Software Development
+* Mobile Architecture
+* Problem Solving
+* Product Development
+
+==================================================
+CONTACT SECTION
+===============
+
+Interactive Contact Form
+
+Fields:
+
+* Name
+* Email
+* Message
+
+Social Links:
+
+* GitHub
+* LinkedIn
+* Email
+
+==================================================
+ADVANCED UI FEATURES
+====================
+
+Include:
+
+* Command Palette (Ctrl + K)
+* Theme Switcher
+* Scroll Progress Indicator
+* Animated Cursor
+* Project Search
+* Project Filtering
+* Dynamic Project Modals
+* Keyboard Navigation
+* Smooth Page Transitions
+* Loading Screen
+
+==================================================
+3D VISUAL EFFECTS
+=================
+
+Include:
+
+* 3D Interactive Globe
+* Animated Network Graph
+* Floating Code Blocks
+* Floating Tech Stack Icons
+* Particle Background
+* Scroll Triggered Animations
+* Interactive Mouse Effects
+
+==================================================
+FINAL DELIVERABLE
+=================
+
+Generate COMPLETE PRODUCTION-READY CODE.
+
+Include:
+
+* Full Folder Structure
+* All Components
+* Assets Structure
+* Type Definitions
+* Video Support
+* SEO Metadata
+* Open Graph Tags
+* Favicon
+* Mobile Optimization
+* Performance Optimization
+* Vercel Configuration
+
+The final website should look and feel like a portfolio built by an engineer applying for Android Engineer, Software Engineer, or Full Stack Engineer positions at Google, Amazon, Microsoft, Meta, Stripe, Uber, Atlassian, Adobe, and Salesforce.
