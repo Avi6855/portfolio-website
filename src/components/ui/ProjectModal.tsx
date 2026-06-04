@@ -13,6 +13,19 @@ interface ProjectModalProps {
 export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
+  const getEmbedUrl = (url: string) => {
+    if (!url) return '';
+    if (url.includes('drive.google.com/file/d/')) {
+      const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+      return match ? `https://drive.google.com/file/d/${match[1]}/preview` : url;
+    }
+    if (url.includes('drive.google.com/drive/folders/')) {
+      const match = url.match(/\/folders\/([a-zA-Z0-9_-]+)/);
+      return match ? `https://drive.google.com/embeddedfolderview?id=${match[1]}#grid` : url;
+    }
+    return url;
+  };
+
   useEffect(() => {
     if (isOpen) {
       setIsPlaying(false);
@@ -68,7 +81,7 @@ export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) =>
                       </div>
                     ) : project.demoVideo.includes('drive.google.com') ? (
                       <iframe 
-                        src={project.demoVideo}
+                        src={getEmbedUrl(project.demoVideo)}
                         className="w-full h-full object-contain border-0"
                         allow="autoplay"
                         allowFullScreen

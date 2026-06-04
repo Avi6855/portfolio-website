@@ -98,7 +98,7 @@ export const projects = [
     category: "Privacy-Focused Video Streaming Platform",
     github: "https://github.com/Avi6855/YouTube_Plus",
     thumbnail: "/thumbnails/YouTube_Plus_App_Banner.png",
-    demoVideo: "/videos/YouTube_Plus_App_Video_Demo.mp4",
+    demoVideo: "https://drive.google.com/drive/folders/1tZuBy4N5QH7DTU9tF7xDjyDjxXypO2zx?usp=sharing",
     techStack: ["Android", "Kotlin", "ExoPlayer", "Coroutines", "Dagger Hilt"],
     summary: "An advanced, privacy-focused video streaming platform offering an ad-free experience, background playback, and custom video controls.",
     features: [
@@ -116,7 +116,7 @@ export const projects = [
     category: "Customer Engagement & Business Automation",
     github: "https://github.com/Avi6855/AutoMessaging",
     thumbnail: "/thumbnails/Auto_Messaging_App_Banner.png",
-    demoVideo: "/videos/Auto-Messaging-App-Demo-Video.mp4",
+    demoVideo: "https://drive.google.com/drive/folders/12aPqF74_mqx6br2lTRq8O-4apjTZtJeI?usp=sharing",
     techStack: ["Android", "Kotlin", "Telephony API", "Room Database"],
     summary: "An Android application that automatically sends predefined SMS messages after a phone call ends to collect customer feedback and improve engagement.",
     features: [
@@ -134,7 +134,7 @@ export const projects = [
     category: "Fintech Mobile Application",
     github: "https://github.com/Avi6855/MonzoBank",
     thumbnail: "/thumbnails/Monzo_Bank_App_Banner.png",
-    demoVideo: "/videos/Monzo_Bank_App_Demo_Video.mp4",
+    demoVideo: "https://drive.google.com/drive/folders/16I1KFKSyWFsttiF_CU3pXwChXSzvfy0X?usp=sharing",
     techStack: ["Android", "Kotlin", "Jetpack Compose", "MVVM", "Firebase"],
     summary: "A comprehensive fintech mobile application simulating a digital banking experience with secure authentication, transaction history, and fund transfers.",
     features: [
