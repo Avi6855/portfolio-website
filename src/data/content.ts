@@ -22,16 +22,16 @@ export const personalInfo = {
 };
 
 export const skills = [
-  { name: "Android Development", icon: Smartphone },
-  { name: "Kotlin", icon: Code2 },
-  { name: "Java", icon: Code2 },
-  { name: "Jetpack Compose", icon: Layout },
-  { name: "MVVM & Clean Architecture", icon: Server },
+  { name: "Data Structures & Algorithms", icon: Cpu },
+  { name: "System Design", icon: Server },
+  { name: "Java & Kotlin", icon: Code2 },
+  { name: "TypeScript & Next.js", icon: Code2 },
   { name: "Spring Boot", icon: Server },
-  { name: "REST APIs", icon: Database },
-  { name: "Firebase", icon: Database },
-  { name: "PostgreSQL", icon: Database },
-  { name: "System Design", icon: Cpu },
+  { name: "RESTful APIs", icon: Database },
+  { name: "PostgreSQL & SQL", icon: Database },
+  { name: "Android Development", icon: Smartphone },
+  { name: "Clean Architecture", icon: Layout },
+  { name: "Git & Version Control", icon: Server },
   { name: "Software Engineering", icon: Code2 },
 ];
 
@@ -209,19 +209,19 @@ export const achievements = [
 
 export const whyHireMe = [
   {
-    title: "Strong Android & Software Engineering",
-    description: "Proven track record in Kotlin, Jetpack Compose, MVVM, and building robust mobile architectures."
+    title: "End-to-End Software Engineering",
+    description: "Proven track record in architecting scalable systems, from robust backend services to intuitive frontends and mobile applications."
   },
   {
     title: "Full Stack Capability",
-    description: "Experience with modern web (React/Next.js) and robust backends (Spring Boot, Node.js)."
+    description: "Experience with modern web (React/Next.js), enterprise backends (Spring Boot), and mobile development (Android/Kotlin)."
   },
   {
     title: "System Design & Architecture",
-    description: "Ability to design scalable enterprise software, understanding the entire product lifecycle."
+    description: "Ability to design scalable enterprise software and complex SaaS platforms, understanding the entire product lifecycle."
   },
   {
-    title: "Problem Solving",
-    description: "Strong algorithmic foundation evidenced by competitive programming achievements."
+    title: "Advanced Problem Solving",
+    description: "Strong algorithmic foundation evidenced by elite competitive programming achievements and a track record of solving complex business logic."
   }
 ];
