@@ -79,7 +79,7 @@ export const projects = [
     category: "Enterprise Business Automation Platform",
     github: "https://github.com/Avi6855/AI_Powered_Smart_Supply_Chain_-_Sales_Automation_Platform",
     thumbnail: "/thumbnails/platform-Banner.png",
-    demoVideo: "/videos/Project-Demo-Video.mp4",
+    demoVideo: "https://drive.google.com/file/d/1Rkp8Paw7m7CDXwFZ_HoS34bSGLasAoVS/preview",
     techStack: ["Next.js", "TypeScript", "Spring Boot", "PostgreSQL", "OpenAI"],
     summary: "An enterprise-grade, full-stack supply chain and sales automation platform with an integrated AI assistant, real-time analytics, and role-based access control.",
     features: [

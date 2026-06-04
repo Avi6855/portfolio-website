@@ -40,15 +40,24 @@ export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) =>
               <div className="max-w-4xl mx-auto space-y-10">
                 {/* Video Player */}
                 {project?.demoVideo ? (
-                  <div className="aspect-video bg-black rounded-xl border border-white/10 overflow-hidden">
-                    <video 
-                      src={project.demoVideo} 
-                      controls 
-                      className="w-full h-full object-contain"
-                      poster={project.thumbnail}
-                    >
-                      Your browser does not support the video tag.
-                    </video>
+                  <div className="aspect-video bg-black rounded-xl border border-white/10 overflow-hidden relative">
+                    {project.demoVideo.includes('drive.google.com') ? (
+                      <iframe 
+                        src={project.demoVideo}
+                        className="w-full h-full object-contain border-0"
+                        allow="autoplay"
+                        allowFullScreen
+                      />
+                    ) : (
+                      <video 
+                        src={project.demoVideo} 
+                        controls 
+                        className="w-full h-full object-contain"
+                        poster={project.thumbnail}
+                      >
+                        Your browser does not support the video tag.
+                      </video>
+                    )}
                   </div>
                 ) : (
                   <div className="aspect-video bg-black rounded-xl border border-white/10 flex items-center justify-center relative group overflow-hidden">
