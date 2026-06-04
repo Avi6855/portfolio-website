@@ -10,15 +10,15 @@ import {
 
 export const personalInfo = {
   name: "Avinash Patil",
-  role: "Android Engineer | Software Engineer",
+  role: "Software Engineer",
   location: "Kolhapur, Maharashtra, India",
   email: "avinashpatil6855@gmail.com",
   phone: "+91 7248976855",
   linkedin: "https://www.linkedin.com/in/avinash-patil-278011228/",
   github: "https://github.com/Avi6855",
   headline: "Building Scalable Software Products and Intelligent Digital Experiences",
-  subheadline: "Android Engineer with 2.6 years of experience building mobile applications, enterprise platforms, business automation systems, and full-stack software solutions.",
-  about: "Android Engineer with 2.6 years of experience building scalable mobile applications, enterprise software systems, automation platforms, fintech applications, and full-stack solutions. Passionate about solving complex problems, optimizing performance, and delivering high-quality products that impact users.",
+  subheadline: "Software Engineer with 2.6 years of experience building mobile applications, enterprise platforms, business automation systems, and full-stack software solutions.",
+  about: "Software Engineer with 2.6 years of experience building scalable mobile applications, enterprise software systems, automation platforms, fintech applications, and full-stack solutions. Passionate about solving complex problems, optimizing performance, and delivering high-quality products that impact users.",
 };
 
 export const skills = [
@@ -39,7 +39,7 @@ export const experience = [
   {
     company: "DISHA Computer",
     location: "Kolhapur, Maharashtra, India",
-    role: "Android Engineer",
+    role: "Software Engineer",
     duration: "January 2024 – Present",
     highlights: [
       "Engineered a scalable Salesforce-inspired SaaS platform for supply chain and sales automation, integrating inventory, procurement, orders, shipments, and customer workflows into a unified enterprise system.",
