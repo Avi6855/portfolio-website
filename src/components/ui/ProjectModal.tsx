@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Play } from 'lucide-react';
 import { FaGithub as GithubIcon } from 'react-icons/fa';
 import { Button } from './Button';
+import { useState, useEffect } from 'react';
 
 interface ProjectModalProps {
   project: any;
@@ -10,6 +11,14 @@ interface ProjectModalProps {
 }
 
 export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setIsPlaying(false);
+    }
+  }, [project, isOpen]);
+
   if (!project) return null;
 
   return (
@@ -41,7 +50,23 @@ export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) =>
                 {/* Video Player */}
                 {project?.demoVideo ? (
                   <div className="aspect-video bg-black rounded-xl border border-white/10 overflow-hidden relative">
-                    {project.demoVideo.includes('drive.google.com') ? (
+                    {!isPlaying ? (
+                      <div 
+                        className="w-full h-full relative cursor-pointer group"
+                        onClick={() => setIsPlaying(true)}
+                      >
+                        <img 
+                          src={project.thumbnail} 
+                          alt={project.title} 
+                          className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity"
+                        />
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="w-20 h-20 rounded-full bg-blue-500/80 flex items-center justify-center group-hover:scale-110 transition-transform backdrop-blur-md shadow-xl shadow-blue-500/30 border border-white/20">
+                            <Play className="w-8 h-8 text-white translate-x-1" fill="currentColor" />
+                          </div>
+                        </div>
+                      </div>
+                    ) : project.demoVideo.includes('drive.google.com') ? (
                       <iframe 
                         src={project.demoVideo}
                         className="w-full h-full object-contain border-0"
@@ -52,8 +77,8 @@ export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) =>
                       <video 
                         src={project.demoVideo} 
                         controls 
+                        autoPlay
                         className="w-full h-full object-contain"
-                        poster={project.thumbnail}
                       >
                         Your browser does not support the video tag.
                       </video>
