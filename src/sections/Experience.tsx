@@ -17,24 +17,6 @@ function renderBold(text: string) {
   );
 }
 
-const highlights = [
-  {
-    text: "Engineered a scalable **Salesforce-inspired SaaS platform** for supply chain and sales automation, integrating inventory, procurement, orders, shipments, and customer workflows into a unified enterprise system.",
-    delay: 0.1,
-  },
-  {
-    text: "Developed a **context-aware AI Copilot** powered by LLMs that analyzes real-time business data to generate actionable insights, recommendations, and natural-language summaries across enterprise modules.",
-    delay: 0.2,
-  },
-  {
-    text: "Built an **agentic workflow automation system** that autonomously generates reports, identifies operational bottlenecks, prioritizes critical alerts, and assists users with data-driven actions throughout supply chain and sales processes.",
-    delay: 0.3,
-  },
-  {
-    text: "Implemented **AI-powered predictive analytics** for demand forecasting, low-stock detection, procurement planning, revenue trend analysis, and executive dashboards, enabling proactive business decision-making.",
-    delay: 0.4,
-  },
-];
 
 export const Experience = () => {
   return (
@@ -107,33 +89,35 @@ export const Experience = () => {
 
                   {/* Highlights */}
                   <div className="p-8 space-y-5">
-                    {highlights.map((item, idx) => (
+                    {exp.highlights?.map((text: string, idx: number) => (
                       <motion.div
                         key={idx}
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.5, delay: item.delay }}
+                        transition={{ duration: 0.5, delay: idx * 0.1 }}
                         className="flex gap-4 group/item"
                       >
                         <div className="mt-1 shrink-0">
                           <CheckCircle2 className="w-5 h-5 text-blue-500 group-hover/item:text-blue-400 transition-colors" />
                         </div>
                         <p className="text-gray-300 leading-relaxed text-[0.95rem]">
-                          {renderBold(item.text)}
+                          {renderBold(text)}
                         </p>
                       </motion.div>
                     ))}
                   </div>
 
                   {/* Skills tag row */}
-                  <div className="px-8 pb-8 flex flex-wrap gap-2">
-                    {['Android', 'Kotlin', 'Spring Boot', 'Next.js', 'TypeScript', 'OpenAI / LLMs', 'PostgreSQL', 'Firebase'].map((tag) => (
-                      <span key={tag} className="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+                  {exp.techStack && (
+                    <div className="px-8 pb-8 flex flex-wrap gap-2">
+                      {exp.techStack.map((tag: string) => (
+                        <span key={tag} className="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </motion.div>
               </div>
             </div>

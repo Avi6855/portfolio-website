@@ -156,11 +156,20 @@ export const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) =>
                     <div>
                       <h4 className="text-sm font-semibold mb-3 text-gray-400 uppercase tracking-wider">Links</h4>
                       <div className="flex gap-3">
-                        <a href={project.github} target="_blank" rel="noreferrer" className="flex-1">
-                          <Button variant="outline" className="w-full gap-2">
-                            <GithubIcon className="w-4 h-4" /> GitHub
-                          </Button>
-                        </a>
+                        {project.github && (
+                          <a href={project.github} target="_blank" rel="noreferrer" className="flex-1">
+                            <Button variant="outline" className="w-full gap-2">
+                              <GithubIcon className="w-4 h-4" /> GitHub
+                            </Button>
+                          </a>
+                        )}
+                        {project.liveUrl && (
+                          <a href={project.liveUrl} target="_blank" rel="noreferrer" className="flex-1">
+                            <Button className="w-full gap-2 bg-blue-600 hover:bg-blue-500 text-white border-none">
+                              Live Demo
+                            </Button>
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>

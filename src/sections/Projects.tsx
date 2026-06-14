@@ -10,7 +10,7 @@ export const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'Enterprise Business Automation Platform', 'Customer Engagement & Business Automation', 'Fintech Mobile Application', 'Privacy-Focused Video Streaming Platform'];
+  const categories = ['All', 'AI SaaS Platform', 'Enterprise Business Automation Platform', 'Customer Engagement & Business Automation', 'Fintech Mobile Application', 'Privacy-Focused Video Streaming Platform'];
 
   const filteredProjects = filter === 'All' 
     ? projects 

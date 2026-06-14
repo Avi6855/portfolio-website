@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { Card } from '../components/ui/Card';
-import { personalInfo, skills } from '../data/content';
+import { personalInfo, skillsCategories } from '../data/content';
 
 export const About = () => {
   return (
@@ -57,18 +57,23 @@ export const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h3 className="text-2xl font-bold mb-6">Core Expertise</h3>
-            <div className="flex flex-wrap gap-3">
-              {skills.map((skill, index) => (
+            <div className="space-y-6">
+              {skillsCategories.map((category, index) => (
                 <motion.div
-                  key={skill.name}
-                  initial={{ opacity: 0, scale: 0.8 }}
+                  key={category.category}
+                  initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.3, delay: index * 0.05 }}
-                  className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full hover:bg-white/10 transition-colors"
+                  transition={{ duration: 0.3, delay: index * 0.1 }}
                 >
-                  <skill.icon className="w-4 h-4 text-blue-400" />
-                  <span className="text-sm font-medium text-gray-200">{skill.name}</span>
+                  <h4 className="text-sm font-semibold text-blue-400 uppercase tracking-wider mb-3">{category.category}</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {category.skills.map(skill => (
+                      <span key={skill} className="px-3 py-1 bg-white/5 border border-white/10 rounded-md text-sm text-gray-300 hover:bg-white/10 transition-colors">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </motion.div>
               ))}
             </div>

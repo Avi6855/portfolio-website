@@ -21,18 +21,35 @@ export const personalInfo = {
   about: "Software Engineer with 2.6 years of experience building scalable mobile applications, enterprise software systems, automation platforms, fintech applications, and full-stack solutions. Passionate about solving complex problems, optimizing performance, and delivering high-quality products that impact users.",
 };
 
-export const skills = [
-  { name: "Data Structures & Algorithms", icon: Cpu },
-  { name: "System Design", icon: Server },
-  { name: "Java & Kotlin", icon: Code2 },
-  { name: "TypeScript & Next.js", icon: Code2 },
-  { name: "Spring Boot", icon: Server },
-  { name: "RESTful APIs", icon: Database },
-  { name: "PostgreSQL & SQL", icon: Database },
-  { name: "Android Development", icon: Smartphone },
-  { name: "Clean Architecture", icon: Layout },
-  { name: "Git & Version Control", icon: Server },
-  { name: "Software Engineering", icon: Code2 },
+export const skillsCategories = [
+  {
+    category: "Programming",
+    skills: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "C++", "SQL"]
+  },
+  {
+    category: "Backend",
+    skills: ["Spring Boot", "Node.js", "REST APIs", "Microservices", "JWT Authentication"]
+  },
+  {
+    category: "Frontend",
+    skills: ["React", "Angular", "HTML5", "CSS3"]
+  },
+  {
+    category: "Databases",
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase Firestore"]
+  },
+  {
+    category: "Cloud & DevOps",
+    skills: ["AWS", "GCP", "Docker", "Kubernetes", "Apache Kafka", "GitHub Actions", "CI/CD"]
+  },
+  {
+    category: "CS Fundamentals",
+    skills: ["DSA", "Operating Systems", "Computer Networks", "System Design", "Distributed Systems"]
+  },
+  {
+    category: "Tools",
+    skills: ["Git", "GitHub", "Postman", "Android Studio"]
+  }
 ];
 
 export const experience = [
@@ -42,11 +59,11 @@ export const experience = [
     role: "Software Engineer",
     duration: "January 2024 – Present",
     highlights: [
-      "Engineered a scalable Salesforce-inspired SaaS platform for supply chain and sales automation, integrating inventory, procurement, orders, shipments, and customer workflows into a unified enterprise system.",
-      "Developed a context-aware AI Copilot powered by LLMs that analyzes real-time business data to generate actionable insights, recommendations, and natural-language summaries across enterprise modules.",
-      "Built an agentic workflow automation system that autonomously generates reports, identifies operational bottlenecks, prioritizes critical alerts, and assists users with data-driven actions throughout supply chain and sales processes.",
-      "Implemented AI-powered predictive analytics for demand forecasting, low-stock detection, procurement planning, revenue trend analysis, and executive dashboards, enabling proactive business decision-making."
-    ]
+      "Engineered a zero-crash Android app, measured by a **40% faster startup** and **85% test coverage**, by implementing Kotlin MVVM architecture with Room and Retrofit.",
+      "Deployed 'DISHA AI' to provide intelligent context-aware student assistance, measured by a **25% increase in user engagement**, by integrating **LLMs** and architecting robust **agentic fallback workflows**.",
+      "Architected a scalable backend, measured by a **30% acceleration in billing workflows**, using a **SaaS** system using **Docker, Kubernetes, Kafka**, and **CI/CD**."
+    ],
+    techStack: ["LLMs", "Docker", "Kubernetes", "Kafka", "CI/CD", "GCP", "Kotlin", "Jetpack Compose", "MVVM"]
   }
 ];
 
@@ -74,6 +91,23 @@ export const codeChef = {
 };
 
 export const projects = [
+  {
+    title: "Indian AI Builder",
+    category: "AI SaaS Platform",
+    liveUrl: "https://indianaibuilder.com/",
+    thumbnail: "/thumbnails/Indian_AI_Builder_Banner.png",
+    demoVideo: "https://drive.google.com/file/d/1zHarSCsC1P_ZtQZe2aMgvxek8vezPLpz/preview",
+    techStack: ["React", "Node.js", "AI", "Cloud"],
+    summary: "A comprehensive AI builder platform offering advanced model training, workflow automation, and seamless integration.",
+    features: [
+      "Drag-and-drop AI workflow builder",
+      "Pre-trained model integrations",
+      "Real-time inference API",
+      "Scalable deployment infrastructure"
+    ],
+    challenges: "Ensuring low-latency inference while scaling to handle a large volume of requests.",
+    solutions: "Optimized model serving with distributed architecture and caching mechanisms."
+  },
   {
     title: "AI Powered Supply Chain & Sales Automation",
     category: "Enterprise Business Automation Platform",
@@ -156,34 +190,10 @@ export const achievements = [
     icon: Smartphone,
   },
   {
-    title: "Global Rank 1 ",
-    description: "Secured Global Rank 1 on CodeChef Starters 240.",
+    title: "Global Rank 11 ",
+    description: "Secured Global Rank 11 on CodeChef Starters 242.",
     icon: Trophy,
-    link: "https://www.codechef.com/rankings/START240B?itemsPerPage=100&order=asc&page=1&sortBy=rank"
-  },
-  {
-    title: "Global Rank 2 ",
-    description: "Secured Global Rank 2 on CodeChef Starters 241.",
-    icon: Trophy,
-    link: "https://www.codechef.com/rankings/START241A?itemsPerPage=100&order=asc&page=1&sortBy=rank"
-  },
-  {
-    title: "Global Rank 4 ",
-    description: "Secured Global Rank 4 on CodeChef Monday Munch - DSA Challenge 005.",
-    icon: Trophy,
-    link: "https://www.codechef.com/rankings/DSAMONDAY005?itemsPerPage=100&order=asc&page=1&sortBy=rank"
-  },
-  {
-    title: "Global Rank 50 ",
-    description: "Secured Global Rank 50 on CodeChef DSA Rating.",
-    icon: Trophy,
-    link: "https://www.codechef.com/users/avinashpatil_1?rating=dsa-monday"
-  },
-  {
-    title: "5 Star on CodeChef",
-    description: "Achieved 5-star rating on CodeChef for consistent high performance in competitive programming contests.",
-    icon: Trophy,
-    //link: "https://www.codechef.com/users/avinashpatil_1?rating=dsa-monday"
+    link: "https://www.codechef.com/rankings/START242D?itemsPerPage=100&order=asc&page=1&sortBy=rank"
   },
   {
     title: "Solved 200+ DSA problems",
