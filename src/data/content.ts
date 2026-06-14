@@ -2,9 +2,7 @@ import {
   Code2,
   Smartphone,
   Server,
-  Database,
   Layout,
-  Cpu,
   Trophy,
 } from 'lucide-react';
 
