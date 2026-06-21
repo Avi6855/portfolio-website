@@ -15,8 +15,8 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/avinash-patil-278011228/",
   github: "https://github.com/Avi6855",
   headline: "Building Scalable Software Products and Intelligent Digital Experiences",
-  subheadline: "Software Engineer with 2.6 years of experience building mobile applications, enterprise platforms, business automation systems, and full-stack software solutions.",
-  about: "Software Engineer with 2.6 years of experience building scalable mobile applications, enterprise software systems, automation platforms, fintech applications, and full-stack solutions. Passionate about solving complex problems, optimizing performance, and delivering high-quality products that impact users.",
+  subheadline: "Software Engineer with 5.6 years of experience building AI-native and full-stack applications from idea to production.",
+  about: "Software Engineer with 5.6 years of experience building AI-native and full-stack applications from idea to production. Built and deployed live AI products using LLMs, React, Next.js, Spring Boot, Node.js, and modern cloud technologies. Strong ownership mindset with experience shipping production systems, rapid prototyping, and designing scalable architectures as a Team of One.",
 };
 
 export const skillsCategories = [
@@ -25,16 +25,20 @@ export const skillsCategories = [
     skills: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript", "C++", "SQL"]
   },
   {
+    category: "AI & LLM Systems",
+    skills: ["LLMs", "Agentic Pipelines", "RAG / Retrival Pipelines", "LangChain4j", "OpenRouter", "Prompt Engineering", "Evaluation Loops", "Inference Cost Optimization"]
+  },
+  {
     category: "Backend",
-    skills: ["Spring Boot", "Node.js", "REST APIs", "Microservices", "JWT Authentication"]
+    skills: ["Spring Boot", "Node.js", "REST APIs", "Microservices", "JWT Authentication", "Evenet-Driven Architecture"]
   },
   {
     category: "Frontend",
-    skills: ["React", "Angular", "HTML5", "CSS3"]
+    skills: ["React", "Next.js", "Talwind CSS", "Angular", "HTML5", "CSS3"]
   },
   {
     category: "Databases",
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase Firestore"]
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase Firestore", "Redis", "Supabase"]
   },
   {
     category: "Cloud & DevOps",
@@ -42,11 +46,11 @@ export const skillsCategories = [
   },
   {
     category: "CS Fundamentals",
-    skills: ["DSA", "Operating Systems", "Computer Networks", "System Design", "Distributed Systems"]
+    skills: ["DSA", "Operating Systems", "Scalability", "Computer Networks", "System Design", "Distributed Systems"]
   },
   {
     category: "Tools",
-    skills: ["Git", "GitHub", "Postman", "Android Studio"]
+    skills: ["Git", "GitHub", "Postman", "Android Studio", "Sandpack"]
   }
 ];
 
@@ -55,13 +59,15 @@ export const experience = [
     company: "DISHA Computer",
     location: "Kolhapur, Maharashtra, India",
     role: "Software Engineer",
-    duration: "January 2024 – Present",
+    duration: "January 2021 – Present",
     highlights: [
-      "Engineered a zero-crash Android app, measured by a **40% faster startup** and **85% test coverage**, by implementing Kotlin MVVM architecture with Room and Retrofit.",
-      "Deployed 'DISHA AI' to provide intelligent context-aware student assistance, measured by a **25% increase in user engagement**, by integrating **LLMs** and architecting robust **agentic fallback workflows**.",
-      "Architected a scalable backend, measured by a **30% acceleration in billing workflows**, using a **SaaS** system using **Docker, Kubernetes, Kafka**, and **CI/CD**."
+      "Owned end-to-end product delivery of **DISHA AI**, an agentic LLM assistant from architecture definition to production deployment achieving a **25\% increase in user engagement** by designing **LLM orchestration pipelines** with **agentic fallback workflows** validated through real user feedback and iterated to production quality within tight cycle times.",
+      "Engineered **evaluation loops and telemetry instrumentation** to continuously monitor LLM response quality, enabling iterative improvement cycles and reducing model degradation incidents by **40\%** directly mapping to operational excellence requirements.",
+      "Architected a production-grade scalable backend using **Docker, Kubernetes, Kafka, and CI/CD**, accelerating billing workflows by **30\%**; reasoned through **infrastructure scalability, system resilience, and cost tradeoffs** to ensure the system operated efficiently at scale across 250+ concurrent workflows.",
+      "Shipped a zero-crash Android application with **85\% test coverage** and **40\% faster startup** using Kotlin MVVM architecture owning the complete cycle from rapid prototype to production, with clear repeatable documentation maintained throughout.",
+      "Led system design decisions on distributed infrastructure, reasoning through **token consumption, inference latency, and cost constraints** to deliver AI features that balanced quality, speed, and operational efficiency at scale."
     ],
-    techStack: ["LLMs", "Docker", "Kubernetes", "Kafka", "CI/CD", "GCP", "Kotlin", "Jetpack Compose", "MVVM"]
+    techStack: ["LLMs", "Docker", "Kubernetes", "Kafka", "CI/CD", "GCP", "Node.js", "Spring Boot", "Kotlin", "PostgreSQL"]
   }
 ];
 
@@ -95,7 +101,7 @@ export const projects = [
     liveUrl: "https://indianaibuilder.com/",
     thumbnail: "/thumbnails/Indian_AI_Builder_Banner.png",
     demoVideo: "https://drive.google.com/file/d/1zHarSCsC1P_ZtQZe2aMgvxek8vezPLpz/preview",
-    techStack: ["React", "Node.js", "AI", "Cloud"],
+    techStack: ["TypeScript", "React", "Node.js", "Talwind CSS", "Next.js", "LLMs", "OpenRouter", "PostgreSQL", "Prisma", "Supabase", "Clerk", "Arcjet", "Sandpack"],
     summary: "A comprehensive AI builder platform offering advanced model training, workflow automation, and seamless integration.",
     features: [
       "Drag-and-drop AI workflow builder",
@@ -112,7 +118,7 @@ export const projects = [
     github: "https://github.com/Avi6855/AI_Powered_Smart_Supply_Chain_-_Sales_Automation_Platform",
     thumbnail: "/thumbnails/platform-Banner.png",
     demoVideo: "https://drive.google.com/file/d/1Rkp8Paw7m7CDXwFZ_HoS34bSGLasAoVS/preview",
-    techStack: ["Next.js", "TypeScript", "Spring Boot", "PostgreSQL", "OpenAI"],
+    techStack: ["TypeScript", "Java", "React", "Node.js", "Talwind CSS", "Next.js", "LLMs", "OpenRouter", "PostgreSQL", "Redis", "LangChain4j", "Recharts", "Docker"],
     summary: "An enterprise-grade, full-stack supply chain and sales automation platform with an integrated AI assistant, real-time analytics, and role-based access control.",
     features: [
       "Unified executive dashboard with live KPIs",
@@ -189,9 +195,9 @@ export const achievements = [
   },
   {
     title: "Global Rank 11 ",
-    description: "Secured Global Rank 11 on CodeChef Starters 242.",
+    description: "Secured Global Rank 11 on CodeChef Starters 243.",
     icon: Trophy,
-    link: "https://www.codechef.com/rankings/START242D?itemsPerPage=100&order=asc&page=1&sortBy=rank"
+    link: "https://www.codechef.com/rankings/START243D?itemsPerPage=100&order=asc&page=1&sortBy=rank"
   },
   {
     title: "Solved 200+ DSA problems",
@@ -215,21 +221,58 @@ export const achievements = [
   }
 ];
 
+
 export const whyHireMe = [
   {
-    title: "End-to-End Software Engineering",
-    description: "Proven track record in architecting scalable systems, from robust backend services to intuitive frontends and mobile applications."
+    title: "AI-Native Systems Builder",
+    description:
+      "Hands-on experience building LLM-powered products with agentic workflows, retrieval pipelines, guardrails, and evaluation loops that are deployed and used in production."
   },
   {
-    title: "Full Stack Capability",
-    description: "Experience with modern web (React/Next.js), enterprise backends (Spring Boot), and mobile development (Android/Kotlin)."
+    title: "Team of One",
+    description:
+      "Comfortable owning the entire product lifecycle — from idea, architecture, and rapid prototyping to production deployment, monitoring, and continuous improvement."
   },
   {
-    title: "System Design & Architecture",
-    description: "Ability to design scalable enterprise software and complex SaaS platforms, understanding the entire product lifecycle."
+    title: "Production-Grade Full Stack",
+    description:
+      "Build modern applications using React, Next.js, Node.js, Spring Boot, Java, and Kotlin with a strong focus on scalability, maintainability, and user experience."
   },
   {
-    title: "Advanced Problem Solving",
-    description: "Strong algorithmic foundation evidenced by elite competitive programming achievements and a track record of solving complex business logic."
+    title: "Rapid Prototyping",
+    description:
+      "Turn ambiguous ideas into working products quickly. Built and launched INDIAN AI BUILDER, an AI platform that generates React applications from natural language prompts."
+  },
+  {
+    title: "Scale, Cost & Reliability",
+    description:
+      "Experienced with Docker, Kubernetes, Kafka, PostgreSQL, CI/CD, and cloud platforms, optimizing systems for latency, infrastructure cost, and operational resilience."
+  },
+  {
+    title: "Builder Mindset",
+    description:
+      "Strong ownership, systems thinking, and problem-solving skills backed by live AI products, competitive programming achievements, and a passion for shipping impactful software."
   }
 ];
+//
+//export const whyHireMe = [
+  //{
+    //title: "End-to-End Software Engineering",
+    //description: "Proven track record in architecting scalable systems, from robust backend services to intuitive frontends and mobile applications."
+  //},
+  //{
+    //title: "Full Stack Capability",
+    //description: "Experience with modern web (React/Next.js), enterprise backends (Spring Boot), and mobile development (Android/Kotlin)."
+  //},
+  //{
+    //title: "System Design & Architecture",
+    //description: "Ability to design scalable enterprise software and complex SaaS platforms, understanding the entire product lifecycle."
+  //},
+  //{
+    //title: "Advanced Problem Solving",
+    //description: "Strong algorithmic foundation evidenced by elite competitive programming achievements and a track record of solving complex business logic."
+  //}
+//];
+
+
+
