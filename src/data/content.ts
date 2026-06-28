@@ -15,8 +15,8 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/avinash-patil-278011228/",
   github: "https://github.com/Avi6855",
   headline: "Building Scalable Software Products and Intelligent Digital Experiences",
-  subheadline: "Software Engineer with 5.6 years of experience building AI-native and full-stack applications from idea to production.",
-  about: "Software Engineer with 5.6 years of experience building AI-native and full-stack applications from idea to production. Built and deployed live AI products using LLMs, React, Next.js, Spring Boot, Node.js, and modern cloud technologies. Strong ownership mindset with experience shipping production systems, rapid prototyping, and designing scalable architectures as a Team of One.",
+  subheadline: "Software Engineer with 2.6 years of experience building AI-native and full-stack applications from idea to production.",
+  about: "Software Engineer with 2.6 years of experience building AI-native and full-stack applications from idea to production. Built and deployed live AI products using  Gemini API, LLMs, React, Angular, Next.js, Spring Boot, Node.js, and modern cloud technologies. Strong ownership mindset with experience shipping production systems, rapid prototyping, and designing scalable architectures as a Team of One.",
 };
 
 export const skillsCategories = [
@@ -26,7 +26,7 @@ export const skillsCategories = [
   },
   {
     category: "AI & LLM Systems",
-    skills: ["LLMs", "Agentic Pipelines", "RAG / Retrival Pipelines", "LangChain4j", "OpenRouter", "Prompt Engineering", "Evaluation Loops", "Inference Cost Optimization"]
+    skills: ["Gemini API", "LLMs", "Agentic Pipelines", "RAG / Retrival Pipelines", "LangChain4j", "OpenRouter", "Prompt Engineering", "Evaluation Loops", "Inference Cost Optimization"]
   },
   {
     category: "Backend",
@@ -61,13 +61,11 @@ export const experience = [
     role: "Software Engineer",
     duration: "January 2021 – Present",
     highlights: [
-      "Owned end-to-end product delivery of **DISHA AI**, an agentic LLM assistant from architecture definition to production deployment achieving a **25\% increase in user engagement** by designing **LLM orchestration pipelines** with **agentic fallback workflows** validated through real user feedback and iterated to production quality within tight cycle times.",
-      "Engineered **evaluation loops and telemetry instrumentation** to continuously monitor LLM response quality, enabling iterative improvement cycles and reducing model degradation incidents by **40\%** directly mapping to operational excellence requirements.",
-      "Architected a production-grade scalable backend using **Docker, Kubernetes, Kafka, and CI/CD**, accelerating billing workflows by **30\%**; reasoned through **infrastructure scalability, system resilience, and cost tradeoffs** to ensure the system operated efficiently at scale across 250+ concurrent workflows.",
-      "Shipped a zero-crash Android application with **85\% test coverage** and **40\% faster startup** using Kotlin MVVM architecture owning the complete cycle from rapid prototype to production, with clear repeatable documentation maintained throughout.",
-      "Led system design decisions on distributed infrastructure, reasoning through **token consumption, inference latency, and cost constraints** to deliver AI features that balanced quality, speed, and operational efficiency at scale."
+      "Engineered a zero-crash Android app, measured by a 40% faster startup and 85% test coverage, by implementing Kotlin MVVM architecture with Room and Retrofit.",
+      "Deployed `DISHA AI' to provide intelligent context-aware student assistance, measured by a 25% increase in user engagement, by integrating Gemini API, LLMs and architecting robust agentic fallback workflows.",
+      "Architected a scalable backend, measured by a 30% acceleration in billing workflows, using a SaaS system using Docker, Kubernetes, Kafka, and CI/CD. Built admin dashboard in Angular for the billing interface.",
     ],
-    techStack: ["LLMs", "Docker", "Kubernetes", "Kafka", "CI/CD", "GCP", "Node.js", "Spring Boot", "Kotlin", "PostgreSQL"]
+    techStack: ["Gemini API", "LLMs", "Angular", "Agentic Pipelines", "Docker", "Kubernetes", "Kafka", "CI/CD", "GCP", "Node.js", "Spring Boot", "Kotlin", "PostgreSQL"]
   }
 ];
 
@@ -101,7 +99,7 @@ export const projects = [
     liveUrl: "https://indianaibuilder.com/",
     thumbnail: "/thumbnails/Indian_AI_Builder_Banner.png",
     demoVideo: "https://drive.google.com/file/d/1zHarSCsC1P_ZtQZe2aMgvxek8vezPLpz/preview",
-    techStack: ["TypeScript", "React", "Node.js", "Talwind CSS", "Next.js", "LLMs", "OpenRouter", "PostgreSQL", "Prisma", "Supabase", "Clerk", "Arcjet", "Sandpack"],
+    techStack: ["TypeScript", "React", "Node.js", "Talwind CSS", "Next.js", "Gemini API", "LLMs", "OpenRouter", "PostgreSQL", "Prisma", "Supabase", "Clerk", "Arcjet", "Sandpack"],
     summary: "A comprehensive AI builder platform offering advanced model training, workflow automation, and seamless integration.",
     features: [
       "Drag-and-drop AI workflow builder",
@@ -194,10 +192,28 @@ export const achievements = [
     icon: Smartphone,
   },
   {
-    title: "Global Rank 11 ",
-    description: "Secured Global Rank 11 on CodeChef Starters 243.",
+    title: "5 Star Coder on CodeChef",
+    description: "Secured 5 Star Coder status on CodeChef.",
+    icon: Trophy,
+    link: "https://www.codechef.com/users/avi_patil_1"
+  },
+  {
+    title: "Global Rank 655",
+    description: "Secured Global Rank 655 on CodeChef.",
+    icon: Trophy,
+    link: "https://www.codechef.com/users/avi_patil_1"
+  },
+  {
+    title: "Global Rank 6",
+    description: "Secured Global Rank 6 on CodeChef Starters 243.",
     icon: Trophy,
     link: "https://www.codechef.com/rankings/START243D?itemsPerPage=100&order=asc&page=1&sortBy=rank"
+  },
+  {
+    title: "Global Rank 13",
+    description: "Secured Global Rank 13 on CodeChef Starters 244.",
+    icon: Trophy,
+    link: "https://www.codechef.com/rankings/START244B?itemsPerPage=100&order=asc&page=1&sortBy=rank"
   },
   {
     title: "Solved 200+ DSA problems",
