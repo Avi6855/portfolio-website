@@ -187,11 +187,6 @@ export const projects = [
 
 export const achievements = [
   {
-    title: "Published Android app on Google Play Store",
-    description: "Successfully developed and launched an application on the Google Play Store.",
-    icon: Smartphone,
-  },
-  {
     title: "5 Star Coder on CodeChef",
     description: "Secured 5 Star Coder status on CodeChef.",
     icon: Trophy,
@@ -210,10 +205,15 @@ export const achievements = [
     link: "https://www.codechef.com/rankings/START243D?itemsPerPage=100&order=asc&page=1&sortBy=rank"
   },
   {
-    title: "Global Rank 13",
-    description: "Secured Global Rank 13 on CodeChef Starters 244.",
+    title: "Global Rank 11",
+    description: "Secured Global Rank 11 on CodeChef Starters 244.",
     icon: Trophy,
     link: "https://www.codechef.com/rankings/START244B?itemsPerPage=100&order=asc&page=1&sortBy=rank"
+  },
+  {
+    title: "Published Android app on Google Play Store",
+    description: "Successfully developed and launched an application on the Google Play Store.",
+    icon: Smartphone,
   },
   {
     title: "Solved 200+ DSA problems",
